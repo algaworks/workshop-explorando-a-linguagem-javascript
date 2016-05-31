@@ -12,7 +12,7 @@ var joao = {
 
 console.log(joao);
 delete joao.idade;
-console.log(joao);
+console.log('->', joao);
 
 delete joao['endereco'].estado;
-console.log(joao);
+console.log('-->', joao);
